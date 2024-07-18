@@ -55,3 +55,20 @@ input[type=button]:hover {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,12,230,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+@media (max-width: 600px) {
+    form {
+        width: 100%;
+        margin: 5vh auto;
+        padding: 10px;
+    }
+
+    #display {
+        font-size: 20px;
+    }
+
+    input[type=button] {
+        height: 50px;
+        font-size: 22px;
+    }
+}
