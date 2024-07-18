@@ -78,3 +78,20 @@ input[type=button]:active {
         font-size: 22px;
     }
 }
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+        margin: 5vh auto;
+        padding: 8px;
+    }
+
+    #display {
+        font-size: 20px;
+    }
+
+    input[type=button] {
+        height: 50px;
+        font-size: 22px;
+    }
+}
